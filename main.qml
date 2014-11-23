@@ -35,7 +35,7 @@ Window {
         text: qsTr("Uppercase me!")
 
         onClicked:
-            // invoke the submitTextField signal
+            // emit the submitTextField signal
             submitTextField(textField1.text)
     }
 }
